@@ -1,0 +1,125 @@
+* {
+    background-color: rgb(229, 211, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #af0b3d;
+}
+
+a:hover {
+    color: #d39117;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+
+}
+#odin {
+    font-size: 2.5em;
+    margin: 3px auto;
+    color: #4e2438;
+    text-shadow: 1px 5px 10px rgb(199, 164, 69);
+}
+hr {
+    
+    padding: 2px;
+    border: 3px ridge rgb(221, 87, 154);
+    background: #b15286;
+    background-clip: border-box;
+    border-radius: 50%;
+}
+header h1 {
+    margin: 2px auto;
+    font-size: 3.5em;
+    text-align: center;
+    background-image: radial-gradient(circle, #dd9818,#af0b3d, #a85f5f) ;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.hmimage {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hmimage img {
+    height: 450px;
+    min-width: 100%;
+}
+
+.banner {
+    text-align: center;
+    font-size: 2em;
+    color: #440021;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav {
+    margin: auto;
+}
+nav .hmnav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 80px auto 60px;
+    
+
+}
+
+.navjol {
+    background-image: url(./navimg/rice.jpeg) ;
+}
+
+.naviyan {
+    background-image:url(./navimg/efo1.jpeg) ;
+}
+
+.navmoi {
+    background-image: url(./navimg/moi.jpeg);
+    margin-top: 10px;
+}
+
+
+ .hmnav li{
+    background-color: rgb(212, 202, 140);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(185, 107, 33);
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    min-width: 300px;
+    text-align: center;
+ }
+.hmnav li a {
+    background-color: rgba(204, 167, 47, 0.5);
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    color: rgb(238, 226, 232);
+    font-weight: bold;
+}
+ 
+ .hmnav li a:hover {
+    background-color: antiquewhite;
+    color: #440021;
+
+ }
+/*
+ .hmnav li a {
+    background-color: rgba(170, 135, 38, 0.5);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: auto 10px;
+ }
+ */
