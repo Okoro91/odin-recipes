@@ -1,6 +1,7 @@
 * {
     background-color: rgb(229, 211, 229);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 a {
     text-decoration: none;
@@ -43,15 +44,31 @@ header h1 {
 
 }
 
-.hmimage {
+.image {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 }
+
+.image img {
+    border-radius: 5px;
+    border: 3px groove rgb(218, 156, 156);
+}
+
 .hmimage img {
     height: 450px;
     min-width: 100%;
+}
+
+.jolimage img {
+    height: 480px;
+    width: 100%;
+}
+
+.efoimage img {
+    height: 450px;
+    width: 49%;
 }
 
 .banner {
@@ -115,11 +132,126 @@ nav .hmnav {
     color: #440021;
 
  }
-/*
- .hmnav li a {
-    background-color: rgba(170, 135, 38, 0.5);
-    color: aliceblue;
-    border-radius: 20px;
-    padding: auto 10px;
+ .details {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 650px;
+    margin: auto;
+
  }
- */
+
+ .firstingre{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+
+ }
+
+ .firstingre h3{
+    width: 100%;
+    font-size: 2rem;
+    color: #a78907;
+    text-shadow: 1px 1px 3px #9c2b60;
+    margin-left: 120px;
+    
+ }
+ .firstingre img {
+    display: block;
+    height: 310px;
+    width: 50vw;
+    border-radius: 10px;
+    border: 4px solid #8a2d2d;
+    padding: 3px;
+    box-shadow: 2px 5px 1px  5px rgb(240, 222, 124);
+    
+ }
+ .firstingre ul {
+    display: block;
+    height: 250px;
+    width: 40vw;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    list-style-type: circle;
+    list-style-position: outside;
+
+ }
+
+ .rice, .dodo{
+    margin-top: 150px;
+ }
+
+ #direction ol {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    font-size: 1.5em;
+    background-image: linear-gradient(45deg, rgb(204, 85, 85) 30%, rgb(206, 163, 45) 50%, rgb(201, 48, 132) 10%);
+    border-radius: 10px;
+    border: 4px ridge rgb(187, 181, 91);
+ }
+
+ #direction li {
+    background-color: rgba(211, 134, 33, 0.5);
+    color: rgb(239, 245, 244);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0.4em;
+    margin: 0.6em;
+ }
+
+ #moi-ingred ul{
+    height: 950px;
+ }
+
+ @media (min-width: 1200px) {
+ #moi-ingred ul{
+    height:390px;
+    margin-bottom: 50px;
+ }
+ }
+
+ #moidirect {
+    margin-top: 180px;
+ }
+ #moidirect ol{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    font-size: 1.5em;
+    background-image: url(./recipes/images/moi3.jpeg);
+    background-color: rgb(216, 79, 25);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(211, 129, 52);
+    border-radius: 10px;
+    padding: 10px;
+ }
+ #moidirect li {
+    background-color: rgba(211, 134, 33, 0.5);
+    color: rgb(239, 245, 244);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0.4em;
+    margin: 0.6em;
+ }
+ 
+
+ .meal {
+    font-size: 1.5em;
+ }
+
+ .footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+    
+ }
+ .ref {
+    font-size: 1.2em;
+ }
+
+ 
+
